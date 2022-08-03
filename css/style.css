@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geo&family=Gidugu&display=swap');
+
+
+body {
+    padding: 30px 0 30px 0;
+    background: url(../img/body-bg.png) 0 0 no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.black-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    margin: 0 15px 50px 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    margin: 50px 0;
+}
+
+.nav {
+    margin-bottom: 25px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link_text {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 35px;
+    color: white;
+}
+
+.brand-icon {
+    text-align: center;
+}
+
+.section_line {
+    padding: 25px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_line__text {
+    font-family: 'Geo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 35px;
+    margin-right: 20px;
+}
+
+.section_line__green {
+    background: rgba(29, 162, 98, 0.47);
+}
+
+.section_line__yellow {
+    background: rgba(254, 254, 34, 0.47);
+}
+
+.section_line__gray {
+    background: rgba(198, 198, 198, 0.47);
+}
+
+.products {
+    margin: 103px 30px;
+}
+
+.products__list_white,
+.products__list_color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__list_black {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product__cart {
+    text-align: center;
+    margin: 15px;
+}
+
+.product__content-bg {
+    width: 220px;
+    height: 220px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s all;
+    margin-bottom: 20px;
+}
+
+.product__content-bg:hover {
+    outline: solid 12px #246142;
+    background-size: 110%;
+    background-position: -10px -10px;
+}
+
+.product__name {
+    font-family: 'Gidugu';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.float-right {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.product-1 {
+    background: url(../img/product-1.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-2 {
+    background: url(../img/product-2.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-3 {
+    background: url(../img/product-3.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-4 {
+    background: url(../img/product-4.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-5 {
+    background: url(../img/product-5.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-6 {
+    background: url(../img/product-6.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-7 {
+    background: url(../img/product-7.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.product-8 {
+    background: url(../img/product-8.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.info {
+    margin: 60px 15px;
+}
+
+.info__cart {
+    text-align: center;
+}
+
+.info__header {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.info__text {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.header_yellow {
+    color: #FFB64C;
+}
+
+.header_green {
+    color: #46A42F;
+}
+
+.header_gray {
+    color: #696A69;
+}
+
+.order {
+    margin: 80px 15px;
+}
+
+.order__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order .instruction {
+    margin-bottom: 50px;
+}
+
+.instruction__item {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 65px;
+    color: white;
+}
+
+.text_green {
+    color: #86C983;
+}
+
+.text_red {
+    color: #FF0000;
+}
+
+.buy-button__block {
+    align-self: center;
+}
+
+.buy-button {
+    text-align: center;
+    padding: 10px 70px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 65px;
+    border: 9px solid #86C983;
+    border-radius: 30px;
+    color: #86C983;
+    text-shadow: -1px 0 black, 1px 5px black, 5px 1px black, 1px -5px black;
+
+    animation-name: ;
+    animation: click-btn 1700ms infinite;
+}
+
+@keyframes click-btn {
+    0% {
+        background: linear-gradient(180deg, #86C983 3.65%, #86C983 50.52%, #86C983 100%);
+    }
+
+    100% {
+        background: inherit;
+    }
+}
+
+.link__popup {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px 15px;
+}
+
+.open__popup {
+    font-family: Arial;
+    padding: 10px 15px;
+    color: black;
+    background-color: red;
+    border: solid 3px red;
+    font-size: 30px;
+}
+
+.open__popup:hover {
+    border: solid 3px red;
+    color: red;
+    background-color: black;
+}
+
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.popup__bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup {
+    font-family: Arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 30px;
+    border: solid 1px red;
+}
+
+.popup__text {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.close__popup {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .product__content-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .instruction {
+        max-width: 50%;
+    }
+
+    .buy-button {
+        padding: 10px 30px;
+    }
+
+    .popup__text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .container {
+        margin: 0px;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .section_line__text {
+        line-height: 50px;
+    }
+
+    .products {
+        margin: 50px 15px;
+    }
+
+    .product__content-bg {
+        max-width: 110px;
+        max-height: 110px;
+    }
+
+    .instruction {
+        max-width: 50%;
+    }
+
+    .instruction__item {
+        font-size: 27px;
+    }
+
+    .buy-button {
+        padding: 10px 30px;
+    }
+
+    .popup__text {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .open__popup {
+        font-size: 19px;
+        padding: 5px 7px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    
+    .logo img {
+        width: 150px;
+    }
+
+    .container {
+        margin: 0px;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .nav__link_text {
+        font-size: 25px;
+    }
+
+    .section_line__text {
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .products__list_white,
+    .products__list_color,
+    .products__list_black {
+        display: block;
+        text-align: center;
+    }
+
+    .products {
+        margin: 50px 15px;
+    }
+
+    .product__content-bg {
+        max-width: 150px;
+        max-height: 150px;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .info__text {
+        font-size: 25px;
+    }
+
+    .info__header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .product__cart {
+        margin-bottom: 40px;
+    }
+    
+    .order {
+        padding: 25px 0;
+        
+    }
+    
+    .order__content {
+        display: block;
+    }
+
+    .instruction {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .instruction {
+        margin-bottom: 0;
+    }
+
+    .instruction__item {
+        font-size: 27px;
+    }
+
+    .buy-button__block {
+        margin-bottom: 50px;
+    }
+    
+    .buy-button {
+        font-size: 30px;
+        padding: 0 70px;
+    }
+    
+    .popup__text {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .open__popup {
+        font-size: 19px;
+        padding: 5px 7px;
+    }
+}
+
+
+
+
+
+/*
+
+//LG-Устройства
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+//XL-Устройства
+@media (min-width: 1200px) {
+    ...
+}
+*/
